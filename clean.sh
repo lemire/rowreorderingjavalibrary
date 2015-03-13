@@ -1,0 +1,1 @@
+rm flatfiles/*.class inmemory/*.class util/*.class
