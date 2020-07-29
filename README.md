@@ -13,6 +13,8 @@ run-length encoding compression in database tables.
 
 # IS THIS FOR YOU?
 
+This code is meant to help you implementing the algorithms from our papers (see references below).
+
 This library is strictly for researchers with a working knowledge of
 Java. It is not for production use!!!!
 
