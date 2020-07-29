@@ -1,0 +1,15 @@
+name: Java13-CI
+
+on: [push, pull_request]
+
+jobs:
+  ci:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '13' # The JDK version to make available on the path.
+          java-package: jdk # (jre, jdk, or jdk+fx) - defaults to jdk
+          architecture: x64 # (x64 or x86) - defaults to x64
+      - run: javac -cp ./lib/jdbm-1.0.jar:./lib/jicos-core-1.10.jar:./lib/jicos-system-1.10.jar:./lib/trove-2.1.0.jar:./lib/csv4j-0.4.0.jar:. inmemory/*.java flatfiles/*.java util/*.java
