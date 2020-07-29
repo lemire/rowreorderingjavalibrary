@@ -2,7 +2,7 @@
 
 Copyright 2009-2010 Daniel Lemire and Owen Kaser
 
-# PURPOSE
+# Purpose
 
 This is a set of algorithms implemented in Java. The goal of these
 algorithms is to minimize the number of column runs, to improve
@@ -12,9 +12,9 @@ run-length encoding compression in database tables.
 # IS THIS FOR YOU?
 
 This library is strictly for researchers with a working knowledge of
-Java.
+Java. It is not for production use!!!!
 
-# REFERENCEs
+# References
 
 Daniel Lemire and Owen Kaser, Reordering Columns for Smaller Indexes, Information Sciences 181 (12), 2011.
 http://arxiv.org/abs/0909.1346
@@ -23,7 +23,7 @@ Daniel Lemire, Owen Kaser, Eduardo Gutarra, Reordering Rows for Better Compressi
 http://arxiv.org/abs/1207.2189
 
 
-# USAGE
+# Usage
 
 We expect CSV input files (comma-separated values). They must be
 first transformed into a custom binary format with the flatfiles/CSVtoBinary
@@ -31,7 +31,7 @@ program. Then, for example, you can use the flatfiles/Sorting, flatfiles/Shuffle
 or flatfiles/MultipleLists programs to sort the table in different row orders. 
 
 
-# LICENSE
+# License
 
 Redistribution and use in source and binary forms, with or without modification, are
 permitted provided that the following conditions are met:
