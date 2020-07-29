@@ -1,5 +1,7 @@
 # Row Reordering Java Library
 
+![Java13-CI](https://github.com/lemire/rowreorderingjavalibrary/workflows/Java13-CI/badge.svg)
+
 Copyright 2009-2010 Daniel Lemire and Owen Kaser
 
 # Purpose
