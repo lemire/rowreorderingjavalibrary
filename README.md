@@ -35,6 +35,16 @@ program. Then, for example, you can use the flatfiles/Sorting, flatfiles/Shuffle
 or flatfiles/MultipleLists programs to sort the table in different row orders. 
 
 
+With a recent system with Java and bash (Linux, macOS, Windows WSL, FreeBSD), it is as simple as...
+
+```
+$ ./compile.sh
+$ java -cp .:lib/trove-2.1.0.jar:lib/csv4j-0.4.0.jar  flatfiles/CSVtoBinary file.csv file.bin
+$ java  flatfiles/BinarytoCSV filesorted.bin file_normalized.csv
+$ java -cp .:lib/jdbm-1.0.jar:lib/trove-2.1.0.jar  flatfiles/MultipleLists file.bin filesorted.bin
+$ java  flatfiles/BinarytoCSV filesorted.bin filesorted_normalized.csv
+```
+
 # License
 
 Redistribution and use in source and binary forms, with or without modification, are
