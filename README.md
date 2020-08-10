@@ -18,6 +18,8 @@ This code is meant to help you implementing the algorithms from our papers (see 
 This library is strictly for researchers with a working knowledge of
 Java. It is not for production use!!!!
 
+You must read the papers: this is not standalone code. It is meant to complement the papers!
+
 # References
 
 Daniel Lemire and Owen Kaser, Reordering Columns for Smaller Indexes, Information Sciences 181 (12), 2011.
